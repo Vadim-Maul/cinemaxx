@@ -1,0 +1,16 @@
+#corona-regeln {
+   font-family: "Isonorm";
+   margin-top: 20px;
+   border: #f7941e 3px solid;
+   color: #777;
+   text-align: left;
+   padding: 24px 32px 0px 80px;
+   a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+}
