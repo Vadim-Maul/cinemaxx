@@ -11,7 +11,7 @@
 .carousel__inner {
   position: relative;
   margin: 0 auto;
-  width: 1600px;
+  max-width: 1600px;
   height: 440px;
 }
 
@@ -39,22 +39,6 @@
 
 .menu {
   background-color: #000;
-}
-
-.container {
-  background-color: #000;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.container.menu-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-height: 90px;
-  margin-top: 30px;
 }
 
 .menu__logo {
@@ -149,6 +133,52 @@
   text-decoration: underline;
 }
 
+.footer {
+  position: relative;
+  display: block;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.footer .footer__map {
+  position: relative;
+}
+
+.footer .footer__info {
+  padding: 50px 68px 60px 68px;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  height: 170px;
+  width: 460px;
+  background: rgba(74, 74, 74, 0.8);
+  color: #f7941e;
+  text-align: center;
+}
+
+.footer .footer__info a {
+  color: #f7941e;
+  text-decoration: none;
+}
+
+.footer .footer__info a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  display: block;
+  max-width: 1100px;
+  font-family: "Isonorm";
+  margin: 30px auto;
+  border: #f7941e 3px solid;
+  color: #777;
+  text-align: left;
+  font-size: 21px;
+  padding: 24px 32px 0px 80px;
+}
+
 body {
   background: #000;
 }
@@ -166,5 +196,21 @@ header {
   background-color: #000;
   font-family: "Isonorm";
   font-size: 21px;
+}
+
+.container {
+  background-color: #000;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container.menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-height: 90px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+.footer {
+   position: relative;
+   display: block;
+   width: 1600px;
+   margin: 0 auto;
+   .footer__map {
+      position: relative;
+   }
+   .footer__info {
+      padding: 50px 68px 60px 68px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      height: 170px;
+      width: 460px;
+      background: rgba(74, 74, 74, 0.8);
+      color: #f7941e;
+      text-align: center;
+      a {
+         color: #f7941e;
+         text-decoration: none;
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+}
